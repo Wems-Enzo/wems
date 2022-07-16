@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'Neutrons';
+    src: url('/fonts/NeutronsDemoRegular.ttf') format('truetype');
+    font-family: 'Swipe';
+    src: url('/fonts/SwipeRaceDemo.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site a {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(29, 29, 188);
+    border: 3px solid rgb(29, 29, 188);
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.site a:hover {
+    background: rgb(29, 29, 188);
+    color: white;
+    box-shadow: 0px 4px 6px #131313;
+}
+
+.github {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.github-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+    border: 3px solid #7289da;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.github-item:hover{
+    background: #7289da;
+    color: white;
+    box-shadow: 0px 8px 12px #131313;
+}
+
+.fa-github {
+    letter-spacing: 2px;
+    display: block;
+    height: 100%;
+    font-size: 30px;
+    color: #7289da;
+    transition: 0.5s;
+}
+
+.github-item:hover .fa-github {
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(29, 29, 188);
+}
+
+.header h1 {
+    margin: auto;
+    padding: 25px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: 'Swipe', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: O;
+    margin-top: 500px;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
