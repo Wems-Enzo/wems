@@ -189,12 +189,18 @@ footer a {
 }
 
 @media screen and (min-width: 1280px) {
+    
+    /*.lien {
+        background-color: #fafafa;
+        padding-bottom: 5px;
+    }*/
+    
     .site {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-    
+
     .site a {
         margin: auto;
         margin-top: 50px;
